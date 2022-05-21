@@ -47,13 +47,7 @@ public class Race {
                 break;
             }
             text = i == 0 ? "st" : i == 1 ? "nd" : i == 2 ? "rd" : "";
-//            if (i == 0) {
-//                text = "st";
-//            } else if (i == 1) {
-//                text = "nd";
-//            } else if (i == 2) {
-//                text = "rd";
-//            }
+
             System.out.printf("%d%s place: %s%n", i + 1, text, sorted.get(i));
         }
     }
